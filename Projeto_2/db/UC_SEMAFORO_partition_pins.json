@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Sel_mxa[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Sel_mxa[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Sel_mxa[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Sel_mxb[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Sel_mxb[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Sel_alu[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Sel_alu[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LDA",
+					"strict" : false
+				},
+				{
+					"name" : "LDB",
+					"strict" : false
+				},
+				{
+					"name" : "LDC",
+					"strict" : false
+				},
+				{
+					"name" : "LDD",
+					"strict" : false
+				},
+				{
+					"name" : "IT",
+					"strict" : false
+				},
+				{
+					"name" : "LD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[10]",
+					"strict" : false
+				},
+				{
+					"name" : "LD[11]",
+					"strict" : false
+				},
+				{
+					"name" : "TC",
+					"strict" : false
+				},
+				{
+					"name" : "CK",
+					"strict" : false
+				},
+				{
+					"name" : "INI",
+					"strict" : false
+				},
+				{
+					"name" : "PO",
+					"strict" : false
+				},
+				{
+					"name" : "ES",
+					"strict" : false
+				},
+				{
+					"name" : "IC",
+					"strict" : false
+				},
+				{
+					"name" : "DC",
+					"strict" : false
+				},
+				{
+					"name" : "NG",
+					"strict" : false
+				},
+				{
+					"name" : "ZR",
+					"strict" : false
+				},
+				{
+					"name" : "PGR",
+					"strict" : false
+				},
+				{
+					"name" : "ST",
+					"strict" : false
+				},
+				{
+					"name" : "BP",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,157 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/15/2017 14:31:09"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          projeto_2
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module projeto_2_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg BP;
+reg CK;
+reg DC;
+reg IC;
+reg INI;
+reg PGR;
+reg ST;
+// wires                                               
+wire [11:0] LD;
+wire [3:0] TFP;
+wire [3:0] TFS;
+wire [3:0] TFT;
+wire [3:0] TR;
+
+// assign statements (if any)                          
+projeto_2 i1 (
+// port map - connection between master ports and signals/registers   
+	.BP(BP),
+	.CK(CK),
+	.DC(DC),
+	.IC(IC),
+	.INI(INI),
+	.LD(LD),
+	.PGR(PGR),
+	.ST(ST),
+	.TFP(TFP),
+	.TFS(TFS),
+	.TFT(TFT),
+	.TR(TR)
+);
+initial 
+begin 
+#5000000 $finish;
+end 
+
+// INI
+initial
+begin
+	INI = 1'b0;
+	INI = #40000 1'b1;
+	INI = #3720000 1'b0;
+	INI = #240000 1'b1;
+end 
+
+// PGR
+initial
+begin
+	PGR = 1'b0;
+	PGR = #40000 1'b1;
+	PGR = #1020000 1'b0;
+	PGR = #1500000 1'b1;
+	PGR = #640000 1'b0;
+end 
+
+// IC
+initial
+begin
+	IC = 1'b0;
+	IC = #110000 1'b1;
+	IC = #40000 1'b0;
+	IC = #350000 1'b1;
+	IC = #40000 1'b0;
+	IC = #20000 1'b1;
+	IC = #40000 1'b0;
+	IC = #20000 1'b1;
+	IC = #40000 1'b0;
+	IC = #20000 1'b1;
+	IC = #40000 1'b0;
+	IC = #20000 1'b1;
+	IC = #40000 1'b0;
+	IC = #20000 1'b1;
+	IC = #40000 1'b0;
+	IC = #20000 1'b1;
+	IC = #40000 1'b0;
+	IC = #20000 1'b1;
+	IC = #40000 1'b0;
+	IC = #20000 1'b1;
+	IC = #40000 1'b0;
+	IC = #740000 1'b1;
+	IC = #160000 1'b0;
+end 
+
+// DC
+initial
+begin
+	DC = 1'b0;
+	DC = #110000 1'b1;
+	DC = #40000 1'b0;
+	DC = #30000 1'b1;
+	DC = #40000 1'b0;
+	DC = #20000 1'b1;
+	DC = #50000 1'b0;
+	DC = #20000 1'b1;
+	DC = #80000 1'b0;
+	DC = #1850000 1'b1;
+	DC = #160000 1'b0;
+end 
+
+// BP
+initial
+begin
+	BP = 1'b0;
+	BP = #1700000 1'b1;
+	BP = #40000 1'b0;
+end 
+
+// CK
+always
+begin
+	CK = 1'b0;
+	CK = #5000 1'b1;
+	#5000;
+end 
+
+// ST
+initial
+begin
+	ST = 1'b0;
+	ST = #650000 1'b1;
+	ST = #150000 1'b0;
+	ST = #200000 1'b1;
+	ST = #180000 1'b0;
+end 
+endmodule
+

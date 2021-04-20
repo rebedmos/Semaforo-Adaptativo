@@ -1,0 +1,11 @@
+|SINC
+CK => KS~reg0.CLK
+CK => Estado~2.DATAIN
+INI => KS~reg0.ACLR
+INI => Estado~4.DATAIN
+K => Estado.DATAA
+K => KS.DATAB
+K => Estado.E0.DATAIN
+KS <= KS~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

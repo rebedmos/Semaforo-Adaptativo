@@ -1,0 +1,13 @@
+|FF_D
+D => Q~reg0.DATAIN
+D => NQ~reg0.DATAIN
+CK => NQ~reg0.CLK
+CK => Q~reg0.CLK
+SET => Q.IN0
+RST => Q.IN1
+RST => NQ~reg0.PRESET
+RST => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+NQ <= NQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

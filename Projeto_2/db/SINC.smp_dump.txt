@@ -1,0 +1,6 @@
+
+State Machine - |SINC|Estado
+Name Estado.E2 Estado.E1 Estado.E0 
+Estado.E0 0 0 0 
+Estado.E1 0 1 1 
+Estado.E2 1 0 1 

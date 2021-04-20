@@ -1,0 +1,19 @@
+|REG
+CK => R_out[0]~reg0.CLK
+CK => R_out[1]~reg0.CLK
+CK => R_out[2]~reg0.CLK
+CK => R_out[3]~reg0.CLK
+LD => R_out[0]~reg0.ENA
+LD => R_out[1]~reg0.ENA
+LD => R_out[2]~reg0.ENA
+LD => R_out[3]~reg0.ENA
+R_in[0] => R_out[0]~reg0.DATAIN
+R_in[1] => R_out[1]~reg0.DATAIN
+R_in[2] => R_out[2]~reg0.DATAIN
+R_in[3] => R_out[3]~reg0.DATAIN
+R_out[0] <= R_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+R_out[1] <= R_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+R_out[2] <= R_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+R_out[3] <= R_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

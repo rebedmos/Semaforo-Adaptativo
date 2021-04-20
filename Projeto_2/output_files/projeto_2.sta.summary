@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup '50MHZ'
+Slack : -7.673
+TNS   : -312.172
+
+Type  : Slow 1200mV 85C Model Setup 'UC_SEMAFORO:inst6|E.TFT_comp_0'
+Slack : -3.428
+TNS   : -3.428
+
+Type  : Slow 1200mV 85C Model Hold '50MHZ'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'UC_SEMAFORO:inst6|E.TFT_comp_0'
+Slack : 3.124
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery '50MHZ'
+Slack : -1.587
+TNS   : -33.741
+
+Type  : Slow 1200mV 85C Model Removal '50MHZ'
+Slack : 1.285
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width '50MHZ'
+Slack : -3.000
+TNS   : -95.520
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UC_SEMAFORO:inst6|E.TFT_comp_0'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup '50MHZ'
+Slack : -6.902
+TNS   : -280.666
+
+Type  : Slow 1200mV 0C Model Setup 'UC_SEMAFORO:inst6|E.TFT_comp_0'
+Slack : -3.097
+TNS   : -3.097
+
+Type  : Slow 1200mV 0C Model Hold '50MHZ'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'UC_SEMAFORO:inst6|E.TFT_comp_0'
+Slack : 2.925
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery '50MHZ'
+Slack : -1.369
+TNS   : -28.363
+
+Type  : Slow 1200mV 0C Model Removal '50MHZ'
+Slack : 1.153
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width '50MHZ'
+Slack : -3.000
+TNS   : -95.520
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UC_SEMAFORO:inst6|E.TFT_comp_0'
+Slack : 0.484
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup '50MHZ'
+Slack : -3.265
+TNS   : -121.146
+
+Type  : Fast 1200mV 0C Model Setup 'UC_SEMAFORO:inst6|E.TFT_comp_0'
+Slack : -1.568
+TNS   : -1.568
+
+Type  : Fast 1200mV 0C Model Hold '50MHZ'
+Slack : 0.008
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'UC_SEMAFORO:inst6|E.TFT_comp_0'
+Slack : 1.899
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery '50MHZ'
+Slack : -0.308
+TNS   : -4.319
+
+Type  : Fast 1200mV 0C Model Removal '50MHZ'
+Slack : 0.627
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width '50MHZ'
+Slack : -3.000
+TNS   : -79.984
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UC_SEMAFORO:inst6|E.TFT_comp_0'
+Slack : 0.404
+TNS   : 0.000
+
+------------------------------------------------------------
